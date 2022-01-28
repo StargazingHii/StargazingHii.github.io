@@ -1,12 +1,11 @@
 ---
 layout: about
-image: /assets/img/blog/hydejack-9.jpg
+image: /assets/my_profile/myimog.png
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  iOS 개발자 하이입니다!
 hide_description: true
-redirect_from:
-  - /download/
+#redirect_from:
+  #- /download/
 ---
 
 # About
