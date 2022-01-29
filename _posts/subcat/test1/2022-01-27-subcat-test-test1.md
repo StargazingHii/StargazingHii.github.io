@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hydejack, Stripe-ified
+subtitle: 부제목 예시 입니다.
 image: /assets/img/blog/jj-ying.jpg
 accent_image: 
   background: url('/assets/img/blog/jj-ying.jpg') center/cover

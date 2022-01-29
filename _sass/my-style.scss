@@ -34,3 +34,22 @@
 .nav-btn-bar{
   height: 3rem;
 }
+
+// author 의 avartar 커스텀
+.content .avatar {
+  float: right !important;
+  box-sizing: content-box;
+  border: 1px solid var(--body-bg);
+  transition: border-color 1s ease;
+  //margin-top: 5px !important;
+  margin-top: -1.0rem;
+  margin-right: 5px !important;
+  width: 90px !important;
+  height: 90px !important;
+}
+
+// author의 description 커스텀
+.author-body-description{
+  margin-left: 10px !important;
+  margin-top: 20px !important;
+}
