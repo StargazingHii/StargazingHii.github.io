@@ -53,3 +53,43 @@
   margin-left: 10px !important;
   margin-top: 20px !important;
 }
+
+// 게시물의 글 밑줄(하이라이트) 색상 변경 -> 보통 '링크'에 밑줄이 쳐있다.
+.content a:not(.btn):not(.no-hover) {
+  text-decoration-color: rgba(231, 163, 73, 0.5);
+}
+
+// 게시물의 하이라이트된 글 (링크) 색상, 스타일 변경
+.markdown-body > p > a {
+  font-weight: bold !important;
+  color: rgb(3,102,214) !important;
+}
+.markdown-body > ol > li > p > a{
+  font-weight: bold !important;
+  color: rgb(3,102,214) !important;
+}
+
+.markdown-body{
+  //kbd 테그의 스타일 커스텀
+  kbd{
+  }
+
+  //mark 테그의 스타일 커스텀
+  mark {
+    padding: 3px 5px;
+    background-color: #FFF9C4
+  }
+
+  //under 테그 -> 밑줄 커스텀
+  under{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    text-underline-position: under;
+    padding-bottom: 2px;
+  }
+
+  //code 테그의 스타일 커스텀
+  code{
+
+  }
+}
