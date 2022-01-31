@@ -48,12 +48,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Ex1
-    url:               /example1/
-  - title:             Ex2
-    url:               /example2/
-  - title:             Ex3
-    url:               /about/
+  - title:             iOS
+    url:               /ios/
+  - title:             Swift
+    url:               /swift/
+  - title:             SwiftUI
+    url:               /swiftui/
+  - title:             Xcode
+    url:               /xcode/
   - title:             Subcat
     url:               /subcat/
     submenu:
